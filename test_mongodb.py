@@ -21,7 +21,7 @@ def print_comanda(comanda):
 db = cataleg.catalogo
 comanda = db.comanda
 
-#insertar comanda
+#dades a insertar
 com_1 = {
 	"ref":3, 
 	"client":"E_000003", 
