@@ -44,7 +44,7 @@ with open('info.csv') as data_csv:
 	info.append(item_json)
 
 json_data = json.dumps(info)
-#Imprimim el json construit
+#Imprimim el json construït
 print(json.dumps(info,indent=4,sort_keys=True))
 
 
