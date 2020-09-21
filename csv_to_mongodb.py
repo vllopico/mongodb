@@ -18,7 +18,6 @@ with open('info.csv') as data_csv:
 	info = []
 	item_json = {"c1":first_c1, "c2":first_c2, "lines":[[first_l1,first_l2,first_l3,first_l4,first_l5]]}
 	
-	num_line = 0
 	for line in csv_info:
 		
 		c1 = line[0]
@@ -37,8 +36,6 @@ with open('info.csv') as data_csv:
 		
 		first_c1 = c1
 		first_c2 = c2
-			
-		num_line += 1
 	
 	#Afegim ultim item del json
 	info.append(item_json)
